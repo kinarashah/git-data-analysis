@@ -1,0 +1,5 @@
+1. Got authentication errors while installing from brew and enterprise db version despite pg_hba.config file showing "trust" permissions. (to be debugged)
+2. Downloaded Postgres.app, runs perfectly.
+3. Click on a database to open its psql on terminal and run queries.
+4. createdb -T template0 apache-data 
+5. psql dbname < infile (psql apache-data < /Downloads/qrs2017)  
